@@ -1,0 +1,43 @@
+.container{
+    background-color: darkturquoise;
+    padding: 25px;
+    height: 50vh;
+    display: flex;
+    gap: 20px;
+
+    /* its used to position as column or rows */
+    /* flex-direction: column; */
+
+    /* it will reverse the content */
+    /* flex-direction: column-reverse; */
+
+    /* used to position the content */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box{
+    background-color: gray;
+    border: 1.5px solid aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 100px;
+    /* width: 100px; */
+    display: flex;
+
+    /* to center horizontally (x-axis) */
+    justify-content: center;
+
+    /* to center vertically (y-axis) */
+    align-items: center;
+    flex-basis: 100px;
+}
+
+.box:nth-child(3)
+{
+    flex-grow: 1;
+    color: red;
+}

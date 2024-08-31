@@ -1,0 +1,15 @@
+
+.block{
+    background-color: aquamarine;
+    width: 200px;
+    height:100px;
+    border: 3px solid black;
+}
+
+.inline-box{
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 3px solid black;
+}

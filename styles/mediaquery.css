@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.header{
+    background-color: #062539; 
+    color: white;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+     gap: 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: grey;
+}
+
+/* the main section */
+.product-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sub-tittle{
+    margin-bottom: 15px;
+}
+
+.product-detail{
+    background-color: rgb(187, 219, 252);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.product-container button{
+    padding: 5px 10px;
+    background-color: #062539;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.product-container button:hover{
+    background-color: gray;
+}
+
+/* product feature section */
+.product-container h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.feature h2{
+    font-size: 32px;
+}
+
+.feature ul{
+    list-style: none;
+}
+
+.feature ul li{
+    font-size: 18px;
+}
+
+.price-table{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.plan{
+    background-color: rgb(187, 219, 252);
+    padding: 20px;
+    text-align: center;
+}
+
+.plan h3{
+    font-size: 1.2em;
+}
+
+.plan ul{
+    list-style: none;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .price-table{
+        grid-template-columns: 1fr;
+    }
+
+    .product-container h2{
+       font-size: 20px;
+    }
+}
+
+
